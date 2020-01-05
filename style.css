@@ -1,0 +1,45 @@
+html {
+		cursor:url(cursor/rose.png), auto;
+		/* background: white; */
+}
+
+body {
+	/* background-image: url("5.jpg"); */
+	/* background-size: cover; */
+	/* margin:0; */
+
+}
+
+a{
+  cursor:url(img/b.cur),auto;
+}
+
+p{
+	margin-top: 0;
+	padding-top: 0;
+  font-size: 14px;
+  font-family:sans-serif;
+  /* color: red; */
+}
+
+.all{
+	/* margin-bottom: : 0 */
+	display: inline;
+	position:relative;
+}
+
+.h-logo{
+  height:100%；
+}
+
+.playdoh{
+  height:60vh;
+}
+
+.book-hand{
+	height:100vh;
+}
+
+.CG{
+	height:100vh;
+}
