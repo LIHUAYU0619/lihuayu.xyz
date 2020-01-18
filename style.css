@@ -11,7 +11,9 @@ body {
 }
 
 a{
-  cursor:url(img/b.cur),auto;
+	text-decoration: none;
+	/* background-color: yellow; */
+  /* cursor:url(img/b.cur),auto; */
 }
 
 p{
@@ -30,12 +32,24 @@ p{
 
 .playdoh{
   height:40vh;
+	padding: 0;
+	margin: 0;
+	border: 0.5px;
+	border-style: solid;
 }
 
-.book-hand{
-	height:100vh;
-}
+.t{
+	position:relative;
+	display:flex;
+	top:-5vh;
+	left:25vw;
+  color:red;
+	/* border: 0.5px; */
+	/* border-style: solid; */
+	/* text-decoration: none; */
+	/* background: yellow; */
 
-.CG{
-	height:100vh;
+}
+.t:hover{
+	opacity: 0;
 }
