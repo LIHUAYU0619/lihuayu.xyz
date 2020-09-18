@@ -7,6 +7,8 @@ body {
 	/* background-image: url("5.jpg"); */
 	/* background-size: cover; */
 	/* margin:0; */
+	/* background-color: rgba(105, 101, 189, 0.34); */
+	background-color: rgba(88, 85, 170, 0.34);
 
 }
 
@@ -22,6 +24,11 @@ p{
   font-size: 14px;
   font-family:sans-serif;
   /* color: red; */
+}
+
+.hi{
+	color:white;
+	/* color:black; */
 }
 
 .all{
