@@ -2,36 +2,143 @@
 <html>
 
 <head>
-	<title>Lihua Yu</title>
+	<title>June Lihua Yu</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
+</head>
 
-  <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
-  </head>
-
-  <body>
-
+<body>
 	<p><a href="https://www.instagram.com/googoooomuck/" target="_blank">
-		<span class="hi">June Lihua Yu</span></a>
-	</br>
-
-
-	<!-- <a href="mailto:googoooomuck@gmail.com"> -->
-		<span class="hi">lihuayu0619@gmail.com
-	<!-- </a> -->
+			June Lihua Yu</a>
+		</br>
+		lihuayu0619@gmail.com
 	</p>
 
-	<div class="all">
+	<div id="slideshow-container">
+		<div id="slideshow">
+
+
+			<!-- <div class="slides">
+				<img src="image/2.png" alt="Image 2" style="width: 100vw; height:100vh; object-fit:cover;">
+
+			</div> -->
 
 
 
-	<!-- <img src="img/playdoh.jpg" class="playdoh">
+			<div class="slides">
+				<img src="image/3.png" alt="Image 3" style="width: 100vw; height:100vh; object-fit:cover;">
+				<!-- <div class="caption">Image 3</div> -->
+			</div>
 
-		<a href="https://lihuayu-archive.tumblr.com/"><p class="t">*archive</p></a> -->
+			<div class="slides">
+				<img src="image/cardinal-2.jpg" alt="Image 2" style="width: 100vw; height:100vh; object-fit:cover;">
+				<!-- <div class="caption">Image 2</div> -->
+			</div>
+
+			<div class="slides">
+				<img src="image/19.jpg" alt="Image 2" style="width: 100%; height:900px; object-fit:contain; padding:80px">
+				<!-- <div class="caption">Image 2</div> -->
+			</div>
+
+			<div class="slides">
+				<img src="image/cover-back-4.png" alt="Image 3" style="width: 100vw; height:100vh; object-fit:cover;">
+				<!-- <div class="caption">Image 3</div> -->
+			</div>
+
+			<div class="slides">
+				<img src="image/1.jpg" alt="Image 1" style="width: 100vw;
+		  height: 100vh;
+		  object-fit:contain;">
+				<!-- <div class="caption">Image 1</div> -->
+			</div>
+
+			<div class="slides">
+				<img src="image/paan.png" alt="Image 2" style="width: 100%; height:900px; object-fit:contain; padding:80px">
+				<!-- <div class="caption">Image 2</div> -->
+			</div>
+
+			<div class="slides">
+				<img src="image/406.png" alt="Image 3" style="width: 100vw; height:100vh; object-fit:cover;">
+				<!-- <div class="caption">Image 3</div> -->
+			</div>
+
+			<div class="slides">
+				<img src="image/10.jpg" alt="Image 3" style="width: 100%; height:900px; object-fit:contain; padding:120px">
+				<!-- <div class="caption">Image 3</div> -->
+			</div>
+
+			<div class="slides">
+				<img src="image/116.png" alt="Image 3" style="width: 100vw; height:100vh; object-fit:cover;">
+				<!-- <div class="caption">Image 3</div> -->
+			</div>
 
 
 
-</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+	</div>
 
-	</body>
+	<!-- <div class="slideshow-container">
+			<div class="mySlides1">
+				<img src="image/Projects_Final_view/miniature_book/406.png" style="width:100%">
+			</div>
+
+			<div class="mySlides1">
+				<img src="image/Projects_Final_view/miniature_book/294.png" style="width:100%">
+			</div>
+
+			<div class="mySlides1">
+				<img src="image/Projects_Final_view/paan_poster/paan_pertigaan.png" style="width:100%;">
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1, 0)">&nbsp;</a>
+			<a class="next" onclick="plusSlides(1, 0)">&nbsp;</a>
+		</div> -->
+
+	</div>
+
+</body>
+
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+		showSlides(slideIndex += n);
+	}
+
+	function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("slides");
+		if (n > slides.length) {
+			slideIndex = 1
+		}
+		if (n < 1) {
+			slideIndex = slides.length
+		}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		slides[slideIndex - 1].style.display = "block";
+	}
+</script>
+
+<!-- <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script> -->
