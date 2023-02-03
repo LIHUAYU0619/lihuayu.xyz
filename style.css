@@ -30,7 +30,7 @@ p {
   /* position: fixed; */
   position: absolute;
   /* z-index: 999; */
-  margin: 10px 0 10px 10px;
+  margin: 10px 10px 10px 10px;
   padding-top: 0;
   padding-bottom:10px;
   font-size: 14px;
