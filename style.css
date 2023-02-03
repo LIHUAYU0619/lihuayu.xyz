@@ -28,7 +28,8 @@ a::after{
 
 p {
   /* position: fixed; */
-  z-index: 999;
+  position: absolute;
+  /* z-index: 999; */
   margin: 10px 0 0 10px;
   padding-top: 0;
   font-size: 14px;
