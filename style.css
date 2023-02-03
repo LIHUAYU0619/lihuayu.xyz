@@ -34,6 +34,6 @@ p {
   font-size: 14px;
   font-family: sans-serif;
   color: black;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
 
 }
