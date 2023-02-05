@@ -1,8 +1,9 @@
 html{
-
+cursor:url('purple.png') 2 2, auto;
 }
 * {
   box-sizing: border-box
+
 
 }
 
@@ -13,13 +14,14 @@ body {
   margin: 0;
   padding: 0;
 
+
 }
 
 a {
 
   text-decoration: underline;
   color:rgb(121, 39, 238);
-  cursor:url('purple.png') 2 2, auto;
+  cursor:pointer;
 }
 
 a:hover{
