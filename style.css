@@ -1,5 +1,5 @@
 html{
-cursor:url('purple.png') 2 2, auto;
+/* cursor:url('purple.png') 2 2, auto; */
 }
 * {
   box-sizing: border-box
@@ -46,4 +46,11 @@ p {
   color: black;
   /* mix-blend-mode: difference; */
 
+}
+
+.xianjian{
+  position: fixed;
+  width:10%;
+  right:0;
+  bottom:0;
 }
