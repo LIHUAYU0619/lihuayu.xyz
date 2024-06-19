@@ -48,7 +48,9 @@ p {
   /* mix-blend-mode: difference; */
 
 }
-
+.info{
+  width:500px;
+}
 .xianjian{
   position: fixed;
   width:10%;
