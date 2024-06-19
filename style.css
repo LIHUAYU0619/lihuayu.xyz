@@ -13,6 +13,7 @@ body {
   /* overflow: hidden; */
   margin: 0;
   padding: 0;
+  background: rgb(196, 196, 196);
 
 
 }
@@ -43,7 +44,7 @@ p {
   padding-bottom:10px;
   font-size: 14px;
   font-family: sans-serif;
-  color: black;
+  color: rgb(66, 66, 66);
   /* mix-blend-mode: difference; */
 
 }
