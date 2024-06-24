@@ -51,5 +51,14 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+// Add mouse scroll controls
+document.querySelector('.slideshow-container').addEventListener('wheel', (event) => {
+    if (event.deltaY > 0) {
+        nextSlide();
+    } else {
+        prevSlide();
+    }
+});
+
 // Initialize the first slide
 showSlide(currentSlide);
