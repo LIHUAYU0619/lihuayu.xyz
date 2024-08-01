@@ -62,6 +62,15 @@ p {
   /* width:500px; */
 }
 
+.update{
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  z-index: 66;
+  font-size: 14px;
+  color: rgb(66, 66, 66);
+}
+
 .slideshow-container {
   position: relative;
   width: 100%;
