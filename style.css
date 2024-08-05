@@ -64,11 +64,21 @@ p {
 
 .update{
   position: fixed;
+  width:35%;
+  min-width: 320px;
   bottom: 1em;
   left: 1em;
   z-index: 66;
   font-size: 14px;
   color: rgb(66, 66, 66);
+}
+
+.quote{
+  position: fixed;
+  color:rgb(110, 110, 110);
+  width:35%;
+  bottom: 3em;
+  right: 2em;
 }
 
 .slideshow-container {
@@ -119,7 +129,7 @@ p {
 
 .overlay-content {
   /* max-width: 80%; /* Adjust width as needed */
-  width:45%;
+  width:36%;
   min-width: 320px;
   top: 1em;
   left: 1em;
